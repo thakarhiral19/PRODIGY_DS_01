@@ -36,4 +36,6 @@ plt.title(f"Top 10 Most Populous Countries ({latest_year})")
 plt.xlabel("Country")
 plt.ylabel("Population")
 plt.xticks(rotation=45)
+plt.savefig("population_chart.png")
 plt.show()
+
